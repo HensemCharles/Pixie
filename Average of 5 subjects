@@ -1,0 +1,15 @@
+   scanf("%f",&GameDev);
+    printf ("Enter History: ");
+    scanf("%f",&History);
+    printf ("Enter PE: ");
+    scanf("%f",&PE);
+
+
+    Sum = Programming+Entrepreneurship+GameDev+History+PE;
+    printf("Total = %.2f\n", Sum );
+
+    Average = (Programming+Entrepreneurship+GameDev+History+PE)/5;
+    printf("Average = %.2f\n", Average);
+
+
+}
