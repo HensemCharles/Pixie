@@ -1,4 +1,16 @@
-   scanf("%f",&GameDev);
+#include <stdio.h>
+int main()
+{
+    printf ("1st C Functions Activity\n");
+    printf ("Total and Average Grade of Student\n");
+
+    float Programming,Entrepreneurship,GameDev,History,PE, Sum, Average;
+    printf ("Enter Programming: ");
+    scanf("%f",&Programming);
+    printf ("Enter Entrepreneurship: ");
+    scanf("%f",&Entrepreneurship);
+    printf ("Enter GameDev: ");
+    scanf("%f",&GameDev);
     printf ("Enter History: ");
     scanf("%f",&History);
     printf ("Enter PE: ");
